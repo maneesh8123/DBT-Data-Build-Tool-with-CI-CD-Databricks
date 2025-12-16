@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: source # name should be same as schema name
+    database: dbtelt  # catalog name
+    schema: source  # schema name
+    tables:
+      - name: dim_customer
+      - name: fact_sales
+
+# version: 2
+
+# sources:
+#   - name: source
+#     # database: dbtsnf  # catalog name
+#     database: '{{ target.catalog }}'  # catalog name
+#     schema: source  # schema name
+#     tables:
+#       - name: dim_customer
+#       - name: dim_date
+#       - name: dim_product
+#       - name: dim_store
+#       - name: fact_returns
+#       - name: fact_sales
+#       - name: items
