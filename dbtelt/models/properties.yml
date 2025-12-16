@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  # - name: bronze_dim_store
+      # config :
+        # materialized: view
+  #   columns:
+  #     - name: store_code
+  #       data_tests:
+  #         - unique
+  #         - not_null
+
+  #     - name: store_name
+  #       data_tests:
+  #         - accepted_values:
+  #             arguments:
+  #               values: ['MegaMart Manhattan', 'MegaMart Brooklyn', 'MegaMart Austin', 'MegaMart San Jose','MegaMart Toronto']
+
+  - name: bronze_dim_customer # specify the model name without .sql
+    columns:
+      - name: customer_code
+        data_tests:
+          - unique
+          - not_null
+          
+  - name: bronze_fact_sales
+    columns:
+      - name: gross_amount
+        data_tests:
+          - generic_non_negative
+            
+      # - name: status
+      #   data_tests:
+      #     - accepted_values:
+      #         arguments: # available in v1.10.5 and higher. Older versions can set the <argument_name> as the top-level property.
+      #           values: ['placed', 'shipped', 'completed', 'returned']
+      # - name: customer_id
+      #   data_tests:
+      #     - relationships:
+      #         arguments:
+      #           to: ref('customers')
+      #           field: id
