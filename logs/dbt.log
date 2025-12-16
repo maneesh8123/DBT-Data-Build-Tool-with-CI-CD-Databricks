@@ -1,0 +1,15 @@
+[0m13:50:54.920151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6FCE2E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6FB3C4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6FCE27E0>]}
+
+
+============================== 13:50:54.928580 | b72e9b22-ccf8-4497-abb1-424bf853fd23 ==============================
+[0m13:50:54.928580 [info ] [MainThread]: Running with dbt=1.11.0-rc3
+[0m13:50:54.928580 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\manee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ls', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:50:54.928580 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\MyDBT\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:50:54.932634 [debug] [MainThread]: Command `dbt ls` failed at 13:50:54.932634 after 0.16 seconds
+[0m13:50:54.932634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6CFD8290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6F6AE8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD6FD1EF30>]}
+[0m13:50:54.933221 [debug] [MainThread]: Flushing usage events
+[0m13:50:56.352150 [debug] [MainThread]: An error was encountered while trying to flush usage events
