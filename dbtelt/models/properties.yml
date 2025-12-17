@@ -15,7 +15,9 @@ models:
   #         - accepted_values:
   #             arguments:
   #               values: ['MegaMart Manhattan', 'MegaMart Brooklyn', 'MegaMart Austin', 'MegaMart San Jose','MegaMart Toronto']
+version: 2
 
+models:
   - name: bronze_dim_customer # specify the model name without .sql
     columns:
       - name: customer_code
