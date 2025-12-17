@@ -33,11 +33,11 @@ models:
   dbtelt:
     # Config indicated by + and applies to all files under models/example/
     bronze:
-      +materialized: view
-      +schema: bronze
+      materialized: view
+      schema: bronze
     silver:
-      +materialized: view
-      +schema: silver
+      materialized: view
+      schema: silver
     gold:
-      +materialized: view
-      +schema: gold
+      materialized: view
+      schema: gold
