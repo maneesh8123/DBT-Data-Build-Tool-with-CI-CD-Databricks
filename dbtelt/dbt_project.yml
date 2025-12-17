@@ -41,3 +41,7 @@ models:
     gold:
       materialized: view
       schema: gold
+
+seeds:
+  dbtelt:
+    +schema: bronze
