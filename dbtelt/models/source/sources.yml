@@ -7,6 +7,7 @@ sources:
     tables:
       - name: dim_customer
       - name: fact_sales
+      - name: items
 
 # version: 2
 
