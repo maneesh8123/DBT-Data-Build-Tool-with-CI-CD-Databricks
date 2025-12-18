@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "d:\\MyDBT\\dbtdatabricks\\Scripts\\python.exe",
+    "dbt.dbtPythonPathOverride": "d:\\MyDBT\\dbtdatabricks\\Scripts\\python.exe"
+}
