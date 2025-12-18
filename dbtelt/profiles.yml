@@ -8,6 +8,14 @@ dbtelt:
       threads: 8
       token: dapi5af3f2854311f09c2e4ee5dba2a0e0ab
       type: databricks
+    prod:
+      catalog: dbtelt_prod
+      host: dbc-33f104a0-0d41.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/835f3bb953d4cc95
+      schema: default
+      threads: 8
+      token: dapi5af3f2854311f09c2e4ee5dba2a0e0ab
+      type: databricks
   target: dev
 
   
