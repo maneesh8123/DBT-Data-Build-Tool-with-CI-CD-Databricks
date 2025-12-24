@@ -29,7 +29,7 @@ How to work with dbt seeds
 
 
 
-### How use this repo
+### How to use this repo
 1.   Install a Python version that is compatible with dbt.
 2.  Clone the Rep
 3.   install the requirements.txt using pip install -r requirements.txt
