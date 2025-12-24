@@ -39,16 +39,16 @@ How to work with dbt seeds
 Commands :
   - run all the dbt model
     
-   dbt run
+      dbt run
   - to run a specific model
     
-  dbt run -s or --select modelName
+      dbt run -s or --select modelName
   - run only bronze models
     
-  dbt run -s or - -select “models/bronze/” 
+      dbt run -s or - -select “models/bronze/” 
 - to run dbt tests
   
-  dbt test
+      dbt test
   - to run snapshots
     
   dbt snapshot 
