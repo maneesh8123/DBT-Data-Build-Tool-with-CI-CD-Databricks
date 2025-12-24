@@ -39,7 +39,7 @@ How to work with dbt seeds
 Commands :
   - run all the dbt model
     
-       dbt run
+        dbt run
   - to run a specific model
     
       dbt run -s or --select modelName
