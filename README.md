@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
-  <img src="https://www.pnghut.com/png/Eb7QxMnXtv/databricks-logo-databricks-logo-transparent-png.png" alt="Databricks Logo" width="200"/>
+  <img src="https://assets.stickpng.com/images/62c719b5b44be1961554a6de.png" alt="Databricks Logo" width="200"/>
 </p>
 
 
