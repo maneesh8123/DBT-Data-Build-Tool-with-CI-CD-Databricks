@@ -1,7 +1,31 @@
+This is a dbt project that is primarily integrated with Databricks Unity Catalog to perform data transformations from source to destination. The project also includes an implemented CI/CD pipeline and a customized dbt setup for both development and production environments.
+
+This document explains:
+
+What dbt is
+
+How to install dbt and configure it with Databricks
+
+How to set up Databricks for this project
+
+The dbt project structure
+
+Models, tests, and snapshots
+
+Implementation of Slowly Changing Dimension (SCD) Type 2 using dbt snapshots
+
+How to use the analyses folder
+
+How to work with dbt seeds
+
+How to set up Databricks for this project
+
+
 ### How use this repo
-1 - Clone the Rep
-2   install the requirements.txt using pip install -r requirements.txt
-3   Go to dbtelt (cd dbtelt), which is the dbt project, where you can see the project structure and folders in dbt. 
+1   Install a Python version that is compatible with dbt.
+2  Clone the Rep
+3   install the requirements.txt using pip install -r requirements.txt
+4   Go to dbtelt (cd dbtelt), which is the dbt project, where you can see the project structure and folders in dbt. 
     Then make changes to profiles.yml based on your requirements, such as the Databricks host, HTTP path, token, catalog, schema, etc.
 Commands : 
   ##### dbt run - run all the dbt model
