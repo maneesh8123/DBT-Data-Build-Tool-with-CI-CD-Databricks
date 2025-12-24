@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
-  <strong style="margin: 0 35px; font-size: 300px;">with</strong>
+  #### with
   <img src="https://www.databricks.com/sites/default/files/og-databricks.png" alt="Databricks Logo" width="200"/>
 </p>
 
