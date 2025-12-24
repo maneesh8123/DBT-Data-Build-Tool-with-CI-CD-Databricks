@@ -1,8 +1,16 @@
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
-  #### with
+  <strong style="margin: 0 35px; font-size: 300px;">with</strong>
   <img src="https://www.databricks.com/sites/default/files/og-databricks.png" alt="Databricks Logo" width="200"/>
 </p>
+
+
+<p align="center">
+  <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
+  <img src="link-to-your-with-image.png" alt="with" width="300"/>
+  <img src="https://www.databricks.com/sites/default/files/og-databricks.png" alt="Databricks Logo" width="200"/>
+</p>
+
 
 
 This is a dbt project that is primarily integrated with Databricks Unity Catalog to perform data transformations from source to destination. The project also includes an implemented CI/CD pipeline and a customized dbt setup for both development and production environments.
