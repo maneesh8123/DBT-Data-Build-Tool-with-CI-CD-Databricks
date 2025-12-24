@@ -1,11 +1,12 @@
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
+  <strong style="margin: 0 15px;">with</strong>
   <img src="https://www.databricks.com/sites/default/files/og-databricks.png" alt="Databricks Logo" width="200"/>
 </p>
 
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
-  <strong style="margin: 0 15px;">with</strong>
+  
   <img src="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/databricks-full-logo.png" alt="Databricks Logo" width="200"/>
 </p>
 
