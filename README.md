@@ -38,10 +38,13 @@ How to work with dbt seeds
 5. run : dbt debug to checks the connection works fine.
 Commands :
   - run all the dbt model
+    
    dbt run
   - to run a specific model
+    
   dbt run -s or --select modelName
   - run only bronze models
+    
   dbt run -s or - -select “models/bronze/” 
   ##### dbt test - to run dbt tests
   ##### dbt snapshot - to run snapshots
