@@ -35,5 +35,10 @@ Commands :
   ##### dbt test - to run dbt tests
   ##### dbt snapshot - to run snapshots
   ##### dbt build - will all the models , test ,snapshots
+  ##### dbt run --target dev - will run dev transformation
+  ##### dbt run --target prod - will run dev transformation
+        dbt test --target prod
+        dbt snapshot --target prod
+
 
   
