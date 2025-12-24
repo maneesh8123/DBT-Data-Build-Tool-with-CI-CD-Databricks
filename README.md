@@ -36,10 +36,13 @@ How to work with dbt seeds
 4.   Go to dbtelt (cd dbtelt), which is the dbt project, where you can see the project structure and folders in dbt. 
     Then make changes to profiles.yml based on your requirements, such as the Databricks host, HTTP path, token, catalog, schema, etc.
 5. run : dbt debug to checks the connection works fine.
-Commands : 
-  ##### dbt run - run all the dbt model
-  ##### dbt run -s or --select modelName - to run a specific model
-  ##### dbt run -s or - -select “models/bronze/” - run only bronze models
+Commands :
+  - run all the dbt model
+   dbt run
+  - to run a specific model
+  dbt run -s or --select modelName
+  - run only bronze models
+  dbt run -s or - -select “models/bronze/” 
   ##### dbt test - to run dbt tests
   ##### dbt snapshot - to run snapshots
   ##### dbt build - will all the models , test ,snapshots
