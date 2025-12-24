@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://logowik.com/content/uploads/images/dbt5596.jpg" alt="dbt Logo" width="200"/>
+  <img src="https://www.databricks.com/sites/default/files/2025-11/logos-card-databricks.png" alt="dbt Logo" width="200"/>
 </p>
 
 
