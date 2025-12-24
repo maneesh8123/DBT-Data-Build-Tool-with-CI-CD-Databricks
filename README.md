@@ -1,4 +1,4 @@
-![dbt Logo](https://www.getdbt.com/ui/img/logos/dbt-logo-full.svg)
+![dbt Logo](https://logowik.com/content/uploads/images/dbt5596.jpg)
 
 
 This is a dbt project that is primarily integrated with Databricks Unity Catalog to perform data transformations from source to destination. The project also includes an implemented CI/CD pipeline and a customized dbt setup for both development and production environments.
