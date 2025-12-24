@@ -8,7 +8,7 @@
 
 This is a dbt project that is primarily integrated with Databricks Unity Catalog to perform data transformations from source to destination. The project also includes an implemented CI/CD pipeline and a customized dbt setup for both development and production environments.
 
-This document link explains: [DBT (Data Build Tool) with CI/CD Document](https://docs.google.com/document/d/1KIDqiBcaEB7KXpbtIJQlz__sNJuQodG-4KIhIQTX6bM/edit?usp=sharing)
+This document link explains: [DBT (Data Build Tool) with CI/CD Document](https://drive.google.com/file/d/1i2ISzoUlzLCKSFNcngVbs09xdxZini9p/view?usp=sharing)
 
 What dbt is
 
