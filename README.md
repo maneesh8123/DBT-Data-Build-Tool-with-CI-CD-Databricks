@@ -46,9 +46,13 @@ Commands :
   - run only bronze models
     
   dbt run -s or - -select “models/bronze/” 
-  ##### dbt test - to run dbt tests
-  ##### dbt snapshot - to run snapshots
-  ##### dbt build - will all the models , test ,snapshots
+- to run dbt tests
+  
+  dbt test
+  - to run snapshots
+    
+  dbt snapshot 
+  dbt build - will all the models , test ,snapshots
   ##### dbt run --target dev - will run dev transformation
   ##### dbt run --target prod - will run dev transformation
         dbt test --target prod
